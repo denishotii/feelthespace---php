@@ -1,0 +1,7 @@
+Në këtë pjesë pra pjesën e shop kam përdorur për Front-End vetëm HTML, CSS dhe JavaScript.
+Për Back-end kam përdoru php dhe mySql.
+Për lajmërimet me email kam përdorur phpmailer.
+Për liveChat kam përdorur tawk.to
+
+Të njejtat vlejnë edhe për pjesën e Admin sepse kanë ndërthurje mes vete!
+
