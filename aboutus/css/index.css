@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+:root{
+    --primary-color: #57BE6C;
+}
+body{
+    background-color: #fdfdfd
+}
+.container{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 90px;
+}
+.fs-h1{
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+hr{
+    background-color: var(--primary-color);
+    height: 2px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.fs-p{
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+}
+
+.second-section{
+    width: 100%;
+    margin-top: 90px;
+}
+.sd-pd{
+    width: 40%;
+    float: left;
+}
+.sd-imgd{
+    width: 60%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.sd-img{
+    width: 50%;
+    height: 50%;
+    padding-top: 50px;
+}
+
+.third-section{
+    float: left;
+    margin-top: 90px;
+    width: 100%;
+}
+
+.team-member{
+    display: grid;
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 280px;
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 40px;
+
+}
+.tm-imgd{
+    width: 100%;
+}
+.square .tm-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid var(--primary-color)
+}
+.tm-h3{
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.tm-p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-top: 0px;
+}

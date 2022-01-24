@@ -1,0 +1,137 @@
+// Form Control
+
+.contact-section{
+  width: 100%;
+  height: 770px;
+  background: (linear-gradient(to left, #abb7ca, #f3f5f7 ));
+}
+.ad{
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 35px;
+  text-align: center;
+  color: #000;
+}
+form{
+  padding-top: 50px;
+  text-align: center;
+}
+.name-l{
+  font-size: 16px;
+  font-weight: bolder;
+  padding-top: 30px ;
+  color: #000;
+}
+input{
+  width: 90%;
+  height: 50px;
+  border:none;
+  border-bottom: 2px solid #000;
+  background: none;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+input:focus{
+  border: 3px solid black;
+  border-top: none;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}
+.email-l{
+  font-size: 16px;
+  font-weight: bolder;
+  margin-top: 55px ;
+  color: black;
+}
+.text-l{
+  font-size: 16px;
+  font-weight: bolder;
+  margin-top: 55px ;
+  color: black;
+}
+textarea{
+  width: 90%;
+  min-height: 40px;
+  height: auto;
+  margin-top: 30px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid black;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+textarea:focus{
+  border: 3px solid black;
+  border-top: none;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}
+.butt-l{
+  margin-top: 70px;
+}
+.butt{
+  width: 90%;
+  border: 2px solid black ;
+  border-radius: 1%;
+  font-weight: bold;
+}
+.butt:hover{
+  cursor: pointer;
+  background: (linear-gradient(to left, #64799c, #f3f5f7 ));
+  transition: 0.6s ;
+}
+.alert{
+  display: none;
+  text-align: center;
+  background-color: none;
+  color: #000;
+  font-weight: bold;
+  width: auto;
+  height: 60px;
+}
+
+@media only screen and (min-width: 800px){
+  .flex1{
+            display: flex;
+            margin-top: 40px;
+        }
+  .name-l{
+    flex: 45%;
+    font-size: 16px;
+    font-weight: bolder;
+     padding-top: 0px ;
+    color: black;
+}
+input{
+    width: 80%;
+}
+.email-l{
+    flex: 45%;
+    font-size: 16px;
+    font-weight: bolder;
+     margin-top: 0px ;
+    color: black;
+}
+.text-l{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 90px ;
+    color: black;
+}
+textarea{
+    margin-top: 15px;
+}
+.contact-section{
+    height: 680px;
+}
+.ad{
+    padding-top: 50px ;
+}
+.butt-l{
+    margin-top: 65px;
+}
+}
