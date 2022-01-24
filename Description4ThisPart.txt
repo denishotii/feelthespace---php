@@ -1,0 +1,4 @@
+Në këtë pjesë pra pjesën e parë kam përdorur vetëm HTML, CSS dhe JavaScript.
+Pjesa e animacioneve është me Javascript.
+Pjesa Contact Us dërgon mesazhet ne Databazë të Google Firebase përmes JavaScript dhe poashtu më njoftom me 
+email përmes librarisë EMAILJS. 
