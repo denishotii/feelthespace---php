@@ -1,0 +1,20 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap'); */
+
+.desc{
+    color: black;
+    width: 90%;
+    height: 100px;
+    /* max-height: 300px; */
+    padding: 5%;
+   /* font-family: 'Uchen', serif;*/
+    opacity: 0.9;
+    text-align: center;
+}
+.titulli{
+  height: 100px;
+}
+/* @media screen and (max-width: 750px) {
+  .desc{
+      height: 300px;
+  }  
+} */

@@ -1,0 +1,65 @@
+.scrolldown {
+  border: 2px solid #FFFFFF;
+  border-radius: 30px;
+  height: 46px;
+  margin: 0 auto 8px;
+  text-align: center;
+  width: 30px;
+}
+
+.scrolldown-p1,
+.scrolldown-p2 {
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-name: scrolldown;
+          animation-name: scrolldown;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  fill: #FFFFFF;
+}
+
+.scrolldown-p2 {
+  -webkit-animation-delay: .75s;
+          animation-delay: .75s;
+}
+
+@-webkit-keyframes scrolldown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(0, -8px);
+            transform: translate(0, -8px);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(0, 8px);
+            transform: translate(0, 8px);
+  }
+}
+
+@keyframes scrolldown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(0, -8px);
+            transform: translate(0, -8px);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(0, 8px);
+            transform: translate(0, 8px);
+  }
+}
+
+.scroll {
+  margin-top: 5em;
+}
+/*# sourceMappingURL=scroll.css.map */
